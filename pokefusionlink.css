@@ -1,0 +1,30 @@
+a{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration: underline;
+}
+body{
+    background-repeat: no-repeat;
+    background-image: url("orasbackground.jpg");
+}
+div{
+    background-color: rgb(240, 100, 0);
+}
+button{
+    border-radius: 5px;
+    border:4px;
+    border-color: #b22222;
+    border-style: groove;
+    background-color: #ff4500;
+    
+}
+button:hover{
+    border-style: inset;
+}
+.home:hover{
+    text-decoration: none;
+}
+.home{
+    color:#8b4513;
+}

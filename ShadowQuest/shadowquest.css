@@ -1,0 +1,16 @@
+body{
+    background: -webkit-linear-gradient(#696969, #000);
+    background: -moz-linear-gradient(#696969, #000);
+    background: linear-gradient(#696969, #000);
+    background-repeat: no-repeat
+}
+p{
+    color:#C0C0C0;
+}
+a{
+    color:#C0C0C0;
+    text-align: center;
+    border:2px solid #FF8C00;
+    border-radius:6px;
+    text-decoration: none
+}

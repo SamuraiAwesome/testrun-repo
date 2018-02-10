@@ -1,0 +1,23 @@
+h1{
+    color:#0f0;
+    font-size:52px;
+    text-align:center;
+}
+h3{
+    color:#006400;
+    font-size:29px;
+    display:inline-block;
+    text-align:center;
+}
+#pika{
+    background-color:yellow;
+}
+#bulba{
+    background-color:green;
+}
+#squirtle{
+    background-color:blue;
+}
+#char{
+    background-color:red;
+}

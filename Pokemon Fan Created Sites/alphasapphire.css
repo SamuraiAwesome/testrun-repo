@@ -1,0 +1,20 @@
+body{
+    background-image: url(orasbackground.jpg);
+    background-repeat: no-repeat
+}
+img{
+    float:center;
+}
+a{
+    text-decoration: none;
+    color:#FF4500;
+    font-size: 30px;
+    background-color: #000080;
+    
+}
+nav{
+    background-color: #191970;
+}
+p{
+    color: #000080;
+}

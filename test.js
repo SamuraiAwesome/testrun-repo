@@ -1,0 +1,1 @@
+confirm('Pikachu is the best Pokemon!')
