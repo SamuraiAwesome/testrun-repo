@@ -3,7 +3,7 @@ body{
     background-repeat: no-repeat
 }
 img{
-    float:center;
+    float:left;
 }
 a{
     text-decoration: none;
