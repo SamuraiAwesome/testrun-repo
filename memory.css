@@ -1,0 +1,10 @@
+#stage {
+            display: flex;
+        }
+
+        .card {
+            margin: 1rem;
+            width: 10rem;
+            height: 10rem;
+            background-color: orange;
+        }

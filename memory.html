@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PokeMatch- A Memory Game</title>
+    <link rel="stylesheet" href="memory.css" type="text/css" />
+</head>
+
+<body>
+    <main>
+        <header style="text-align: center;">
+            <h1>PokeMatch</h1>
+        </header>
+
+        <nav style="display: flex; flex-direction: row">
+            <h2>Select a difficulty:</h2>
+            <ul>
+                <li>
+                    <button id="start-easy">Easy</button>
+                </li>
+                <li>
+                    <button id="start-medium">Medium</button>
+                </li>
+                <li>
+                    <button id="start-hard">Hard</button>
+                </li>
+            </ul>
+        </nav>
+
+        <section id="stage">
+
+        </section>
+    </main>
+
+    <template id="card-template">
+        <article class="card">
+            <h2 data-value></h2>
+         </article>
+    </template>
+    <script type="text/javascript" src="memory.js"></script>
+</body>
+
+</html>
