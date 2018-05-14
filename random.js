@@ -8,7 +8,7 @@ alert("I'll do something random!");
 randomize();
 switch (rand) {
     case 1:
-        display.innerHTML = "<img src='Pokemon Fan Created Sites/images/pokeball.jpg'>";
+        display.innerHTML = "<img src='pokefansites/images/pokeball.jpg'>";
         break;
     case 2:
         display.innerHTML = "<h1>BANANAS ARE DELICIOUS</h1>";
@@ -20,7 +20,7 @@ switch (rand) {
         display.innerHTML = "<h1>Error 404</h1><p>Oops! We must have lost your file somewhere.</p>";
         break;
     case 5:
-        display.innerHTML = "<img src='Pokemon Fan Created Sites/images/losermom/cosmog.jpg'>";
+        display.innerHTML = "<img src='pokefansites/images/losermom/cosmog.jpg'>";
         break;
     case 6:
         display.innerHTML = "<img src='scaryface.jpg'>";
