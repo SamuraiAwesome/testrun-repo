@@ -6,13 +6,30 @@ h1{
     text-align: center;
     font-family:sans-serif;
 }
-ul{
+.flex{
     display: flex;
 }
 a{
     text-decoration: none;
     display: inline;
 }
-figure{
-    display: inline;
+section{
+    box-sizing: border-box;
+    -ie-box-sizing: border-box;
+    text-align: center;
+    font-family: Shrikhand, cursive;
+    color: #571313;
+    padding-top: 50px;
+    border-radius: 7px;
+    text-shadow: 2px 2px silver;
+    text-shadow: 2px 2px rgba(128,128,128,.4)
+}
+a section:hover{
+    text-shadow: #322f2f;
+    color: #50132a;
+}
+#tubbs{
+    background-image: url("tubbs.jpg");
+    height: 228px;
+    width: 330px;
 }
