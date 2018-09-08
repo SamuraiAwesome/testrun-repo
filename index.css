@@ -6,13 +6,46 @@ h1{
     text-align: center;
     font-family:sans-serif;
 }
-ul{
+.flex{
     display: flex;
 }
 a{
     text-decoration: none;
     display: inline;
 }
-figure{
-    display: inline;
+section{
+    box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    text-align: center;
+    font-family: Shrikhand, cursive;
+    color: #571313;
+    height: 228px;
+    width: 330px;
+    padding-top: 50px;
+    border-radius: 7px;
+    margin: 5px;
+    text-shadow: 2px 2px silver;
+    text-shadow: 2px 2px rgba(128,128,128,.4);
+}
+a section:hover{
+    text-shadow: #322f2f;
+    color: #50132a;
+}
+#tubbs{
+    background-image: url("tubbs.jpg");
+}
+#pokefansites{
+    background-image: url("pokefansites/images/pokeball.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#ultra{
+    background-color: white;
+    background-image: url("pokefansites/images/losermom/cosmog.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#rando{
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
 }
