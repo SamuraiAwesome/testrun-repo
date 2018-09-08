@@ -8,6 +8,8 @@ h1{
 }
 .flex{
     display: flex;
+    flex-wrap:wrap;
+    margin: 2px 100px;
 }
 a{
     text-decoration: none;
@@ -48,4 +50,7 @@ a section:hover{
 }
 #rando{
     background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+#innerHTML{
+    background-image: linear-gradient(to right, #327aef,#10c8cc,#22e583,#1f8722);
 }
