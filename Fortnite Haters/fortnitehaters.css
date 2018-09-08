@@ -1,0 +1,11 @@
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 4em;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
