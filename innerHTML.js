@@ -26,9 +26,10 @@ function switchPage(){
         break;
             
         case 2:
-            cssLink.setAttribute("href","pokefansites/pokefusionlink.css");
+            cssLink.setAttribute("href","pokefusionlink.css");
             body.innerHTML = '<h1>Welcome to Pokemon Fusion Link!</h1>\
         <h2>Your go-to website for hilarious Pokemon fusions.</h2>\
+        <br><br><br><br><br><br><br>\
         <div><a href="http://pokefusion.japeal.com/463/186/384">Polilicky</a>\
         <a href="http://pokefusion.japeal.com/384/150/384">Mewquaza</a>\
         <a href="http://pokefusion.japeal.com/32/252/295">Male Treeran</a>\

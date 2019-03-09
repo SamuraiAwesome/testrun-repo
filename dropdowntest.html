@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dropdown Test</title>
+    <link rel="stylesheet" href="dropdowntest.css" type="text/css" />
+</head>
+
+<body>
+    <div class="dropdown">
+        <button class="dropbtn" id="dropbtn">Dropdown</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var dropbtn = document.getElementById('dropbtn');
+        var dropcont = document.getElementById('myDropdown');
+        var hover;
+        dropbtn.addEventListener('mouseover',drop,false);
+        dropbtn.addEventListener('click',drop,false);
+        dropbtn.addEventListener('mouseout',dropUp,false);
+        dropcont.addEventListener('mouseover',setHover(true),false);
+        dropcont.addEventListener('mouseout',setHover(false),false);
+        function drop(){
+            dropcont.style.display = 'block';
+        }
+        function dropUp(){
+            if(hover == false){
+                dropcont.style.display = 'none';
+            }
+        }
+        function setHover(hov){
+            hover = hov;
+            return hover;
+        }
+    </script>
+</body>
+
+</html>
