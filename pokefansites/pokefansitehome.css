@@ -1,5 +1,36 @@
+body{
+    background-image: linear-gradient(to right, #327aef,#10c8cc,#22e583,#1f8722,#d1384f,#a51f1a);
+}
+h1{
+    text-align: center;
+    font-family:sans-serif;
+}
+.flex{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 2px 100px;
+}
 a{
     text-decoration: none;
-    color:#008B8B;
-    /*This color is just a filler. Get something else as soon as you have a color scheme worked out.*/
+    display: inline;
+}
+section{
+    box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    text-align: center;
+    font-family: 'Kosugi Maru', serif;
+    color: #571313;
+    height: 228px;
+    width: 330px;
+    padding-top: 50px;
+    border-radius: 7px;
+    margin: 5px;
+    text-shadow: 2px 2px silver;
+    text-shadow: 2px 2px rgba(128,128,128,.4);
+    background-color: #040f75;
+}
+a section:hover{
+    text-shadow: #322f2f;
+    color: #50132a;
+    
 }

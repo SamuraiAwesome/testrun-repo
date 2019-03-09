@@ -1,0 +1,85 @@
+<html class="gr__acscdn_pythonanywhere_com"><head></head><body data-gr-c-s-loaded="true" style="cursor: url(&quot;chrome-extension://iclinnjcnpihmbogglkigdkhkeajbcck/cursors/arrows/pokeball.png&quot;), auto;"><div class="aops-panel">
+<h1>AoPS blog theme changer</h1>
+<p> Created by fath2012 </p>
+<h2>Self update alert!</h2>
+<p>This user script will self update its database of styles for your blog. <strong style="color:red;">Warning: If the css box doesn't have css and has some dirty html code in it then it means that my server is restarting!</strong></p><br>
+<p> If you installed the user script via github, the user script itself should self update. </p>
+<h2>Change CSS of blog</h2>
+<select id="theme_option">
+  <option value="theme1">asf's wordpress theme (Modified by fath2012)</option>
+  <option value="theme2">City</option>
+  <option value="theme3">Ambiance Clear</option>
+  <option value="theme4">Ambiance Blue</option>
+    <option value="theme5">Ambiance Neon Blue</option>
+    <option value="theme6">Wordpress Piano Theme(by dragon96)</option>
+    <option value="theme7">Fresh</option>
+    <option value="theme8">System FAILURE</option>
+    <option value="theme9">Reminiscence</option>
+    <option value="theme_a">Ascent</option>
+    <option value="theme_b">Goodbye.css</option>
+</select>
+<button onclick="changetheme();" class="btn btn-primary">Change blog CSS</button>
+<button onclick="as = !(as);" class="btn btn-primary"> Autosave (Beta)!  </button>
+<p>
+    Autosave may annoy you!
+</p> <br>
+<p>
+    You should make a back up before running this css changer. Just in case the script prints your current css to the console but don't rely on it.
+</p>
+<script>
+console.log("Theme changing loaded");
+function changetheme(){
+    $(".cmty-cat-admin-blog-css-text").attr("id","stylebox");
+    console.log($("#stylebox").val());
+    var e = document.getElementById("theme_option");
+var option = e.options[e.selectedIndex].value;
+$.ajax({ type: "POST",url: "https://samuraiawesome.github.io/ultimateuserscript.html"+option+".css",success : function(text){$('#stylebox').val(text);
+    $(".cmty-cat-admin-blog-css-save").trigger("click");
+    setTimeout(function(){$(".aops-modal-btn").trigger("click")},500);
+
+}});
+}
+function save(){
+   $(".cmty-cat-admin-blog-css-save").trigger("click");
+   setTimeout(function(){$(".aops-modal-btn").trigger("click")},500);
+}
+var as = false;
+function autosave(){
+    if(as){
+        save();
+    }
+}
+setInterval(15000,autosave);
+</script>
+<h2> Dev info </h2>
+<p style="display: none;">
+    Hold on! The DEV IS ADDING STYLES! Be patient if nothings working!
+</p>
+<p>
+    Dev is not updating the styles right now. Also the dev is not online right now.
+</p>
+<h2> Changelog </h2>
+<p>
+    12/27/2018: Added City style and more
+</p>
+<h2> Why use this?</h2>
+<p>
+    It saves you the pain of selecting about 400 lines of css.
+</p>
+<h2> Credits </h2>
+<strong>asf for making such cool styles</strong><br>
+<strong>thkim1011 for creating Ambiance</strong><br>
+<strong>NeoMathematicalKid for creating City and also Fresh</strong><br>
+<strong>dragon96 for for his outstanding Wordpress piano blog CSS</strong><br>
+<strong>iPro who created the awesome System Failure CSS</strong><br>
+<strong>ImpossibleCube for making a old AoPS style sheet</strong><br>
+<strong>cjquines0 for making Ascent</strong><br>
+<strong>Mathlete2017 for making Goodbye.css</strong>
+Click <a href="https://artofproblemsolving.com/community/c798177_the_uu" style="cursor: url(&quot;chrome-extension://iclinnjcnpihmbogglkigdkhkeajbcck/cursors/pointers/pokeball.png&quot;), auto;"> here </a> to view the forum for this user script 
+<h2> Tools </h2>
+<button class="btn btn-primary">
+<a href="https://acscdn.pythonanywhere.com/aopsblog.html" style="color: white; text-decoration: none; cursor: url(&quot;chrome-extension://iclinnjcnpihmbogglkigdkhkeajbcck/cursors/pointers/pokeball.png&quot;), auto;"> Click here, refresh, then press the back button if your user script is not getting new styles(No longer needed after update 0.1.3)</a>
+</button>
+</div>
+
+</body></html>
